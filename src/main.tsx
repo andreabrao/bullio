@@ -140,7 +140,7 @@ function App() {
       <header className="site-header">
         <div className="container header-inner">
           <a className="brand" href="#topo" aria-label="Bull.io - início" onClick={closeMenu}>
-            <img src="./bullio_logo.svg" alt="Bull.io" />
+            <img src="./bullio_logo.svg" alt="Bull.io" width="1200" height="300" />
           </a>
 
           <button
@@ -191,6 +191,8 @@ function App() {
               <img
                 src="./bullio_hero_abstrato.svg"
                 alt="Painel conceitual fictício com cartões de indicadores e gráfico de evolução"
+                width="1440"
+                height="1080"
               />
               <div className="floating-card floating-card-top">
                 <span>Contexto do registro</span>
@@ -263,7 +265,11 @@ function App() {
               </div>
               <div className="chart-card">
                 <div className="chart-heading"><div><span>Evolução acumulada</span><strong>Visão conceitual</strong></div><span>12 meses</span></div>
-                <div className="chart" aria-label="Gráfico ilustrativo com altas e baixas">
+                <div
+                  className="chart"
+                  role="img"
+                  aria-label="Gráfico conceitual de evolução acumulada em doze meses, com períodos de alta e de queda. Todos os dados são fictícios."
+                >
                   <span className="grid-line line-one" /><span className="grid-line line-two" /><span className="grid-line line-three" />
                   <div className="chart-area" />
                   <div className="chart-line" />
@@ -424,7 +430,7 @@ function App() {
 
       <footer className="site-footer">
         <div className="container footer-main">
-          <div className="footer-brand"><img src="./bullio_logo.svg" alt="Bull.io" /><p>Uma ideia fictícia sobre histórico, contexto e reputação baseada em dados.</p></div>
+          <div className="footer-brand"><img src="./bullio_logo.svg" alt="Bull.io" width="1200" height="300" /><p>Uma ideia fictícia sobre histórico, contexto e reputação baseada em dados.</p></div>
           <div><strong>Navegação</strong><a href="#como-funciona">Como funciona</a><a href="#beneficios">Benefícios</a><a href="#para-quem">Para quem é</a><a href="#faq">Perguntas frequentes</a></div>
           <div><strong>Transparência</strong><button type="button" onClick={() => setPrivacyOpen(true)}>Aviso de privacidade</button><button type="button" onClick={() => setPreferencesOpen(true)}>Preferências locais</button><span>Contato não disponível</span><span>Sem domínio próprio</span></div>
         </div>
