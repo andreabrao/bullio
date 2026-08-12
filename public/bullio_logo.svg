@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Bull.io</title>
+  <desc id="desc">Logo fictício da Bull.io em verde escuro e laranja.</desc>
+  <g transform="translate(42 38)">
+    <rect width="224" height="224" rx="54" fill="#183428"/>
+    <path d="M55 80C32 61 26 37 31 20c25 4 47 17 61 38" fill="none" stroke="#F7F5EF" stroke-width="18" stroke-linecap="round"/>
+    <path d="M169 80c23-19 29-43 24-60-25 4-47 17-61 38" fill="none" stroke="#F7F5EF" stroke-width="18" stroke-linecap="round"/>
+    <path d="M65 96c0-28 21-50 47-50s47 22 47 50v42c0 34-20 58-47 58s-47-24-47-58z" fill="#F7F5EF"/>
+    <circle cx="91" cy="113" r="7" fill="#183428"/>
+    <circle cx="133" cy="113" r="7" fill="#183428"/>
+    <path d="M89 158c14 10 32 10 46 0" fill="none" stroke="#D68D51" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="315" y="192" fill="#183428" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" letter-spacing="-8">BULL</text>
+  <circle cx="754" cy="174" r="17" fill="#D68D51"/>
+  <text x="785" y="192" fill="#183428" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" letter-spacing="-8">IO</text>
+</svg>

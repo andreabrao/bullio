@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Painel abstrato de desempenho Bull.io</title>
+  <desc id="desc">Composição vetorial fictícia com cartões, gráfico e indicadores, sem representar um produto funcional.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#183428"/>
+      <stop offset="1" stop-color="#0B1E16"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#8C9B63"/>
+      <stop offset="1" stop-color="#D68D51"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#07130E" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="1080" rx="72" fill="url(#bg)"/>
+  <circle cx="1230" cy="168" r="245" fill="#D68D51" opacity=".13"/>
+  <circle cx="194" cy="930" r="310" fill="#8C9B63" opacity=".11"/>
+  <g filter="url(#shadow)">
+    <rect x="145" y="160" width="1150" height="760" rx="42" fill="#F7F5EF"/>
+    <rect x="145" y="160" width="1150" height="96" rx="42" fill="#EAF0EB"/>
+    <circle cx="206" cy="208" r="13" fill="#183428"/>
+    <circle cx="246" cy="208" r="13" fill="#8C9B63"/>
+    <circle cx="286" cy="208" r="13" fill="#D68D51"/>
+    <rect x="1005" y="190" width="230" height="36" rx="18" fill="#183428" opacity=".1"/>
+    <rect x="205" y="312" width="290" height="158" rx="28" fill="#183428"/>
+    <text x="240" y="365" fill="#BFC9AC" font-family="Arial, sans-serif" font-size="22">RESULTADO LÍQUIDO</text>
+    <text x="240" y="430" fill="#F7F5EF" font-family="Arial, sans-serif" font-size="56" font-weight="700">+18,4%</text>
+    <rect x="525" y="312" width="290" height="158" rx="28" fill="#EAF0EB"/>
+    <text x="560" y="365" fill="#657069" font-family="Arial, sans-serif" font-size="22">CONSISTÊNCIA</text>
+    <text x="560" y="430" fill="#183428" font-family="Arial, sans-serif" font-size="56" font-weight="700">72%</text>
+    <rect x="845" y="312" width="290" height="158" rx="28" fill="#F8EADD"/>
+    <text x="880" y="365" fill="#7F6048" font-family="Arial, sans-serif" font-size="22">OPERAÇÕES</text>
+    <text x="880" y="430" fill="#183428" font-family="Arial, sans-serif" font-size="56" font-weight="700">148</text>
+    <rect x="205" y="515" width="930" height="330" rx="28" fill="#FFFFFF" stroke="#CFD9D1" stroke-width="3"/>
+    <g stroke="#DCE4DE" stroke-width="2">
+      <path d="M255 590H1085M255 660H1085M255 730H1085M255 800H1085"/>
+      <path d="M340 560V810M500 560V810M660 560V810M820 560V810M980 560V810"/>
+    </g>
+    <path d="M255 765C330 738 370 748 432 690S560 674 625 625s131 42 204-20 124-4 176-60 80-15 80-15" fill="none" stroke="url(#line)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1085" cy="530" r="13" fill="#D68D51"/>
+  </g>
+  <text x="720" y="1005" text-anchor="middle" fill="#F7F5EF" opacity=".72" font-family="Arial, sans-serif" font-size="24" letter-spacing="5">DEMONSTRAÇÃO CONCEITUAL FICTÍCIA</text>
+</svg>
